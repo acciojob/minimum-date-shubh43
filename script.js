@@ -1,5 +1,6 @@
 function minDate(dates) {
-  //write you code here
+ var min = dates.reduce(function (a, b) { return a < b ? a : b; });
+return min;
 }
 
 // Do not change the code
